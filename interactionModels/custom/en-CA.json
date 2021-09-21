@@ -1,0 +1,109 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bluestardev",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetBgValueIntent",
+          "slots": [],
+          "samples": [
+            "What is my last glucose on BlueStar",
+            "What is my last glucose in BlueStar",
+            "What is my last sugar on BlueStar",
+            "What is my last sugar in BlueStar",
+            "What is my last blood glucose on BlueStar",
+            "What is my last blood glucose in BlueStar",
+            "What is my last blood sugar on BlueStar",
+            "What is my last blood sugar in BlueStar",
+            "What is my last BG on BlueStar",
+            "What is my last BG in BlueStar",
+            "What is my most recent glucose on BlueStar",
+            "What is my most recent glucose in BlueStar",
+            "What is my most recent sugar on BlueStar",
+            "What is my most recent sugar in BlueStar",
+            "What is my most recent blood glucose on BlueStar",
+            "What is my most recent blood glucose in BlueStar",
+            "What is my most recent blood sugar on BlueStar",
+            "What is my most recent blood sugar in BlueStar",
+            "What is my most recent BG on BlueStar",
+            "What is my most recent BG in BlueStar"
+          ]
+        },
+        {
+          "name": "GetWeightIntent",
+          "slots": [],
+          "samples": [
+            "What is my most recent weight in BlueStar",
+            "What is my most recent weight on BlueStar",
+            "What is my last weight in BlueStar",
+            "What is my last weight on BlueStar"
+          ]
+        },
+        {
+          "name": "GetCarbValueIntent",
+          "slots": [],
+          "samples": [
+            "What is my most recent carb in BlueStar",
+            "What is my most recent carb on BlueStar",
+            "What is my last carb entry in BlueStar",
+            "What is my last carb entry on BlueStar"
+          ]
+        },
+        {
+          "name": "GetUnreadMessageCountIntent",
+          "slots": [],
+          "samples": [
+            "Do I have any unread messages in BlueStar",
+            "Do I have any unread messages on BlueStar",
+            "How many new messages do I have in BlueStar",
+            "How many new messages do I have on BlueStar",
+            "How many unread do I have in BlueStar",
+            "How many unread do I have on BlueStar"
+          ]
+        },
+        {
+          "name": "InvalidIntent",
+          "slots": [],
+          "samples": [
+            "what is my last pounds on BlueStar",
+            "what is my latest pound entry in bluestar",
+            "what is my most recent pound entry",
+            "what is my most recent carbs entry",
+            "what is my most recent glucose",
+            "what is my latest",
+            "what is most ",
+            "what is my most",
+            "what is my recent",
+            "what is my most recent",
+            "what is",
+            "what is my",
+            "what is my last carbs on bluestar",
+            "what is my last lbs on bluestar"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "14"
+}

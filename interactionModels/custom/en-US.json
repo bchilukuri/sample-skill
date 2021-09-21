@@ -1,0 +1,136 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bluestar dev",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "to cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "to help",
+            "for help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "to stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetBgValueIntent",
+          "slots": [],
+          "samples": [
+            "my most recent BG",
+            "my most recent blood sugar",
+            "my most recent blood glucose",
+            "my most recent sugar",
+            "my most recent glucose",
+            "my last BG",
+            "my last blood sugar",
+            "my last blood glucose",
+            "my last sugar",
+            "my last glucose",
+            "what is my most recent BG",
+            "what is my most recent blood sugar",
+            "what is my most recent blood glucose",
+            "what is my most recent sugar",
+            "what is my most recent glucose",
+            "what is my last BG",
+            "what is my last blood sugar",
+            "what is my last blood glucose",
+            "what is my last sugar",
+            "what is my last glucose"
+          ]
+        },
+        {
+          "name": "GetWeightIntent",
+          "slots": [],
+          "samples": [
+            "my last weight",
+            "my most recent weight",
+            "what is my last weight",
+            "what is my most recent weight"
+          ]
+        },
+        {
+          "name": "GetCarbValueIntent",
+          "slots": [],
+          "samples": [
+            "my last carb entry",
+            "my most recent carb",
+            "what is my last carb entry",
+            "what is my most recent carb"
+          ]
+        },
+        {
+          "name": "GetUnreadMessageCountIntent",
+          "slots": [],
+          "samples": [
+            "tell me how many unread messages I have",
+            "tell me how many new messages do I have",
+            "tell me do I have any unread messages",
+            "how many unread messages do I have",
+            "how many new messages do I have",
+            "do I have any unread messages"
+          ]
+        },
+        {
+          "name": "InvalidIntent",
+          "slots": [],
+          "samples": [
+            "Alexa what is my last pounds on Blue Star",
+            "Alexa what is my latest pound entry in blue star",
+            "Alexa what is my most recent pound entry in blue star",
+            "Alexa what is my last lbs on blue star",
+            "Alexa what is my in blue star",
+            "Alexa what is in blue star",
+            "Alexa what is my most recent in blue star",
+            "Alexa what is my recent in blue star",
+            "Alexa what is my most in blue star",
+            "Alexa what is most in blue star",
+            "Alexa what is my latest in blue star"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "2",
+              "name": {
+                "value": "Enhlish(CA)"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "English(US)"
+              }
+            }
+          ],
+          "name": "AMAZON.Country"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "36"
+}

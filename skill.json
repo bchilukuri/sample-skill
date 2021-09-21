@@ -1,0 +1,72 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Bluestar"
+        },
+        "en-CA": {
+          "name": "Bluestar"
+        },
+        "es-US": {
+          "name": "Bluestar"
+        },
+        "en-GB": {
+          "summary": "Get the BG Value from Blustar",
+          "examplePhrases": [
+            "Alexa open bluestar",
+            "Alexa launch bluestar",
+            "Alexa what is my recent bg value"
+          ],
+          "keywords": [
+            "bg",
+            "value",
+            "carb",
+            "value",
+            "weight",
+            "facts"
+          ],
+          "name": "Bluestar",
+          "description": "To start, just say \"Alexa, launch Bluestar or Alexa, Open Bluestar\" to get the BG value.\n\nAt any time, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Instructions.",
+      "category": "CHILDRENS_MOVEMENT_AND_ACTIVITY",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:839711011132:function:AWSBlueStar"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      },
+      {
+        "name": "alexa::authenticate:2:mandatory"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {
+          "termsOfUseUrl": "https://dev4-dsm.testwd.com/Portal/Guest/Login.htm",
+          "privacyPolicyUrl": "https://dev4-dsm.testwd.com/Portal/Guest/Login.htm"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

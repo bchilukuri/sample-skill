@@ -1,0 +1,187 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bluestardev",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloIntent",
+          "slots": [],
+          "samples": [
+            "Hi",
+            "Hello"
+          ]
+        },
+        {
+          "name": "GetBgValueIntent",
+          "slots": [],
+          "samples": [
+            "What is my last glucose on Bluestar",
+            "What is my last glucose in Bluestar",
+            "What is my last sugar on Bluestar",
+            "What is my last sugar in Bluestar",
+            "What is my last blood glucose on Bluestar",
+            "What is my last blood glucose in Bluestar",
+            "What is my last blood sugar on Bluestar",
+            "What is my last blood sugar in Bluestar",
+            "What is my last BG on Bluestar",
+            "What is my last BG in Bluestar",
+            "What is my most recent glucose on Bluestar",
+            "What is my most recent glucose in Bluestar",
+            "What is my most recent sugar on Bluestar",
+            "What is my most recent sugar in Bluestar",
+            "What is my most recent blood glucose on Bluestar",
+            "What is my most recent blood glucose in Bluestar",
+            "What is my most recent blood sugar on Bluestar",
+            "What is my most recent blood sugar in Bluestar",
+            "What is my most recent BG on Bluestar",
+            "What is my most recent BG in Bluestar"
+          ]
+        },
+        {
+          "name": "GetWeightIntent",
+          "slots": [],
+          "samples": [
+            "What is my last weight on Bluestar",
+            "What is my last weight in Bluestar",
+            "What is my most recent weight on Bluestar",
+            "What is my most recent weight in Bluestar"
+          ]
+        },
+        {
+          "name": "GetCarbValueIntent",
+          "slots": [],
+          "samples": [
+            "What is my last carb entry on Bluestar",
+            "What is my last carb entry in Bluestar",
+            "What is my most recent carb on Bluestar",
+            "What is my most recent carb in Bluestar"
+          ]
+        },
+        {
+          "name": "GetRecipesIntent",
+          "slots": [
+            {
+              "name": "MealTypes",
+              "type": "MealTypes",
+              "samples": [
+                "{MealTypes}"
+              ]
+            }
+          ],
+          "samples": [
+            "get recipe",
+            "my {MealTypes} recipes"
+          ]
+        },
+        {
+          "name": "GetUnreadMessageCountIntent",
+          "slots": [],
+          "samples": [
+            "How many unread do I have on Bluestar",
+            "How many unread do I have in Bluestar",
+            "How many new messages do I have on Bluestar",
+            "How many new messages do I have in Bluestar",
+            "Do I have any unread messages on Bluestar",
+            "Do I have any unread messages in Bluestar"
+          ]
+        },
+        {
+          "name": "GetUnreadMessageIntent",
+          "slots": [],
+          "samples": [
+            "Get the unread messages",
+            "Read out unread messages",
+            "What are those unread messages"
+          ]
+        },
+        {
+          "name": "InvalidIntent",
+          "slots": [],
+          "samples": [
+            "what is my most recent",
+            "what is my recent",
+            "what is my most",
+            "what is most",
+            "what is my latest",
+            "what is",
+            "what is my"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "3",
+              "name": {
+                "value": "Dinner"
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "Lunch"
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "Breakfast"
+              }
+            }
+          ],
+          "name": "MealTypes"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "GetRecipesIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "MealTypes",
+              "type": "MealTypes",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1342847021024.276951879636"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1342847021024.276951879636",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "which meal ?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "31"
+}

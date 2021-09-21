@@ -1,0 +1,79 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bluestardev",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetBgValueIntent",
+          "slots": [],
+          "samples": [
+            "cuál es mi última glucosa en Bluestar",
+            "cuál es mi última azúcar en Bluestar",
+            "cuál es mi última glucosa en la sangre en Bluestar",
+            "cuál es mi última azúcar en la sangre en Bluestar",
+            "cuál es mi última glucemia en Bluestar",
+            "cuál es mi glucosa más reciente en Bluestar ",
+            "cuál es mi azúcar en Bluestar",
+            "cuál es mi glucosa en la sangre en Bluestar",
+            "cuál es mi azúcar en la sangre en Bluestar",
+            "cuál es mi glucemia en Bluestar"
+          ]
+        },
+        {
+          "name": "GetWeightIntent",
+          "slots": [],
+          "samples": [
+            "cuál es mi último peso en Bluestar",
+            "cuál es mi peso más reciente en Bluestar"
+          ]
+        },
+        {
+          "name": "GetCarbValueIntent",
+          "slots": [],
+          "samples": [
+            "cuál es mi última entrada de carbohidratos en Bluestar",
+            "cuál es mi entrada de carbohidratos más reciente en Bluestar"
+          ]
+        },
+        {
+          "name": "GetUnreadMessageCountIntent",
+          "slots": [],
+          "samples": [
+            "cuántos mensajes no leídos tengo en Bluestar"
+          ]
+        },
+        {
+          "name": "InvalidIntent",
+          "slots": [],
+          "samples": [
+            "que es",
+            "Cuál es mi",
+            "cuál es mi ultimo",
+            "cuál es mi más",
+            "lo que es mas",
+            "cuál es mi reciente",
+            "cuál es mi más reciente"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "33"
+}
